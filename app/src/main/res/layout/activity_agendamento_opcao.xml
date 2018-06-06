@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgendamentoOpcao">
+
+    <ImageView
+        android:id="@+id/ag_img_salao"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/txtinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="Selecione seu atendente preferencial: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ag_img_fun"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtinfo"
+        android:layout_marginBottom="117dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/func" />
+
+    <Button
+        android:id="@+id/func_sl01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtinfo"
+        android:layout_marginBottom="60dp"
+        android:text="Funcionario" />
+
+    <ImageView
+        android:id="@+id/ag_img_fun2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ag_img_fun"
+        android:layout_marginEnd="60dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/func" />
+
+    <Button
+        android:id="@+id/func_sl02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ag_img_fun2"
+        android:layout_alignTop="@+id/func_sl01"
+        android:text="Funcionario" />
+
+
+
+
+
+</RelativeLayout>
